@@ -1,15 +1,16 @@
 {
-  "pages":[
-    "pages/parking/parking",
+  "pages": [
     "pages/index/index",
-    
-    "pages/logs/logs"
+    "pages/parking/parking",
+    "pages/logs/logs",
+    "pages/article_detail/article_detail",
+    "pages/index/templates/news/news"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "禹帆物流",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
@@ -18,17 +19,17 @@
     "selectedColor": "#1aad16",
     "list": [
       {
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "./images/shouye.png",
-      "selectedIconPath": "./images/selected.png"
-    },
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/shouye.png",
+        "selectedIconPath": "./images/selected.png"
+      },
       {
-      "pagePath": "pages/parking/parking",
-      "text": "车位预约",
-      "iconPath": "./images/tingchewei.png",
-      "selectedIconPath": "./images/tingchewei_selected.png"
-    }
-  ]
+        "pagePath": "pages/parking/parking",
+        "text": "车位预约",
+        "iconPath": "./images/tingchewei.png",
+        "selectedIconPath": "./images/tingchewei_selected.png"
+      }
+    ]
   }
 }

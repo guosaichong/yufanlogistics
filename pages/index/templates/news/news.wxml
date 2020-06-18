@@ -1,0 +1,28 @@
+<template name="news">
+	<view class="news-group">
+		<view class="info-group">
+			<view class="title">夯实安全知识基础，提高事故防范能力
+			</view>
+			<view class="more-group">
+				<text class="author">禹帆君</text>
+				<text class="date">2019-03-15 15:29</text>
+			</view>
+		</view>
+		<view class="thumnail-group">
+			<image class="thumnail" src="http://16283779.s21i.faiusr.com/4/ABUIABAEGAAg-amt5AUouZaxywMwqgQ4nwM.png"></image>
+		</view>
+	</view>
+	<view class="news-group">
+		<view class="info-group">
+			<view class="title">转发“成都工厂外销阵地启动双班生产 确保万辆份外销订单”
+			</view>
+			<view class="more-group">
+				<text class="author">禹帆君</text>
+				<text class="date">2019-03-07 16:31</text>
+			</view>
+		</view>
+		<view class="thumnail-group">
+			<image class="thumnail" src="http://16283779.s21i.faiusr.com/4/ABUIABAEGAAg1K6D5AUozOOqrQEwqgQ48QI.png"></image>
+		</view>
+	</view>
+</template>

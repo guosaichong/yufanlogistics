@@ -1,0 +1,2 @@
+<import src="./templates/news/news.wxml" />
+<template is="news"></template>
