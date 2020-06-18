@@ -1,0 +1,41 @@
+<view class="outter">
+	<view class="item">
+		<view class="left">车牌号：</view>
+		<input class="right" type="text" focus="true" maxlength="7" confirm-type="next"></input>
+	</view>
+	<view class="item">
+		<view class="left">供应商名称：</view>
+		<input class="right" type="text" maxlength="10" confirm-type="next"></input>
+	</view>
+	<view class="item">
+		<view class="left">联系人：</view>
+		<input class="right" type="text" maxlength="4" confirm-type="next"></input>
+	</view>
+	<view class="item">
+		<view class="left">联系电话：</view>
+		<input class="right" type="number" maxlength="11" confirm-type></input>
+	</view>
+	<view class="item">
+		<view class="left">卸货联系人：</view>
+		<input class="right" type="text" maxlength="4" adjust-position confirm-type="next"></input>
+	</view>
+	<view class="item">
+		<view class="left">卸货位置：</view>
+		<input class="right" type="text" maxlength="10" adjust-position confirm-type="next"></input>
+	</view>
+	<view class="item">
+		<view class="left">预计到货日期：</view>
+		<input class="right" bindinput="bindHideKeyboard" adjust-position confirm-type></input>
+	</view>
+	<view class="item">
+		<view class="left">预约卸货时间：</view>
+		<input class="right" bindinput="bindHideKeyboard" adjust-position confirm-type></input>
+	</view>
+
+
+	<view class="item-button">
+		<button class="chongzhi">重置</button>
+		<button class="tijiao">提交</button>
+	</view>
+
+</view>
